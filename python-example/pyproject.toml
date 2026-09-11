@@ -1,0 +1,21 @@
+[project]
+name = "python-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Laksiri Fernando", email = "laksirif@kingslake.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "networkx>=3.6.1",
+]
+
+[project.scripts]
+python-example = "python_example:main"
+knowledge-graph = "python_example.knowledge_graph:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
