@@ -8,13 +8,17 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "google-genai>=2.23.0",
     "matplotlib>=3.11.1",
     "networkx>=3.6.1",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
 ]
 
 [project.scripts]
 python-example = "python_example:main"
 knowledge-graph = "python_example.knowledge_graph:main"
+kg-by-llm = "python_example.kg_by_llm:main"
 
 [build-system]
 requires = ["uv_build>=0.12.0,<0.13.0"]
