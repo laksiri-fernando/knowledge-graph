@@ -13,12 +13,14 @@ dependencies = [
     "networkx>=3.6.1",
     "pydantic>=2.13.5",
     "python-dotenv>=1.2.3",
+    "pyvis>=0.3.2",
 ]
 
 [project.scripts]
 python-example = "python_example:main"
 knowledge-graph = "python_example.knowledge_graph:main"
 kg-by-llm = "python_example.kg_by_llm:main"
+kg-by-llm-html = "python_example.kg_by_llm_html:main"
 
 [build-system]
 requires = ["uv_build>=0.12.0,<0.13.0"]
