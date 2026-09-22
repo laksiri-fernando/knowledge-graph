@@ -1,0 +1,152 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "app_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "app.py",
+      "source_location": "L6"
+    },
+    {
+      "id": "app_welcome",
+      "label": "welcome()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "welcome()",
+      "source_file": "app.py",
+      "source_location": "L3"
+    },
+    {
+      "id": "utility_add",
+      "label": "add()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "utility.py",
+      "file_type": "code",
+      "norm_label": "add()",
+      "source_file": "utility.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "app",
+      "label": "app.py",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "app.py",
+      "source_file": "app.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "pkg_graphify_python_example",
+      "label": "graphify-python-example",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "graphify-python-example",
+      "ecosystem": "python",
+      "file_type": "code",
+      "norm_label": "graphify-python-example",
+      "source_file": "pyproject.toml",
+      "source_location": "L1",
+      "type": "package",
+      "version": "0.1.0"
+    },
+    {
+      "id": "utility",
+      "label": "utility.py",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "utility.py",
+      "file_type": "code",
+      "norm_label": "utility.py",
+      "source_file": "utility.py",
+      "source_location": "L1"
+    }
+  ],
+  "links": [
+    {
+      "source": "app_main",
+      "target": "app_welcome",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "app_main",
+      "target": "utility_add",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "app.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "app",
+      "target": "utility",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "app.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "app",
+      "target": "app_welcome",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "app",
+      "target": "app_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "utility",
+      "target": "utility_add",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "utility.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "ec99401a92e0b5d1b4158d1a2cbeb29093bc505f"
+}
