@@ -1,0 +1,71 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "src_graphify_uv_python_init_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "__init__.py",
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "src/graphify_uv_python/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_graphify_uv_python_init",
+      "label": "__init__.py",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "__init__.py",
+      "file_type": "code",
+      "norm_label": "__init__.py",
+      "source_file": "src/graphify_uv_python/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "pkg_graphify_uv_python",
+      "label": "graphify-uv-python",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "graphify-uv-python",
+      "ecosystem": "python",
+      "file_type": "code",
+      "norm_label": "graphify-uv-python",
+      "source_file": "pyproject.toml",
+      "source_location": "L1",
+      "type": "package",
+      "version": "0.1.0"
+    },
+    {
+      "id": "readme",
+      "label": "README.md",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "readme.md",
+      "source_file": "README.md",
+      "source_location": "L1"
+    }
+  ],
+  "links": [
+    {
+      "source": "src_graphify_uv_python_init",
+      "target": "src_graphify_uv_python_init_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/graphify_uv_python/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "a9927ba07a043fc380cef761b733e1eb505815b3"
+}

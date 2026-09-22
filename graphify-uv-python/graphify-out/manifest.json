@@ -1,0 +1,20 @@
+{
+  "pyproject.toml": {
+    "mtime": 1790047891.7990682,
+    "seen": 1790048001.0458236,
+    "ast_hash": "68501c9f59a5f726b917c112fa366679",
+    "semantic_hash": ""
+  },
+  "src/graphify_uv_python/__init__.py": {
+    "mtime": 1790047891.7990682,
+    "seen": 1790048001.045828,
+    "ast_hash": "fed3607ee58a25a863da0d4c79f3fe88",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1790047891.8000681,
+    "seen": 1790048001.0458305,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  }
+}
