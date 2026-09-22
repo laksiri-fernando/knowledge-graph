@@ -35,3 +35,7 @@ Explain how authentication flows through the application.
 # in terminal
 graphify update .
 ```
+
+## Reference
+
+- [Building a Self-Updating Knowledge Graph for AI Coding Agents](https://niravshah2705.medium.com/building-a-self-updating-knowledge-graph-for-ai-coding-agents-049e889fcdcc)
